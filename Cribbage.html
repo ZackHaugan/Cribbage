@@ -1,0 +1,31 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+   <title>Cribbage Calculator</title>
+   <link rel="icon" href="Icon.png">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="Cribbage.css"/>
+   <meta charset="utf-8"/>
+</head>
+<body>
+  <div id="leftcontainer">
+    <div id="info">
+      <div id="hand">
+        <p>Original Hand: </p>
+        <table id="handCards"></table>
+      </div>
+      <p style='display:block;text-align:left;margin:0 0 0 5px;'><button type="button" onclick='clearHand();' style='margin-right:5px;'>Clear Hand</button><button type="button" onclick='toggleDealing();' id='dealingButton'>You are Dealing</button> <span id="instructions">Select your hand</span></p>
+    </div>
+    <div>
+      <table id="cardSelector"></table>
+    </div>
+  </div>
+  <div id="secondaryInfo">
+    <div id="stats">
+    </div>
+  </div>
+  <div>
+  </div>
+</body>
+<script type="text/javascript" src="Cribbage.js"></script>
+</html>
